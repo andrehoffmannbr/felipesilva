@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Corretor de imóveis especializado na Grande Florianópolis">
+    <title>Felipe Silva - Especialista em Imóveis </title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="youtube-container">
+            <iframe 
+                width="100%" 
+                height="100%" 
+                src="https://www.youtube.com/embed/J87dC3n9ex4?autoplay=1&mute=1&loop=1&playlist=J87dC3n9ex4&controls=0&showinfo=0&rel=0" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="container">
+            <nav class="nav">
+                <button class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#imoveis">Imóveis</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Encontre o Imóvel dos Seus Sonhos</h2>
+                <p>Conectando pessoas a lugares extraordinários com atendimento premium e personalizado</p>
+                <div class="hero-buttons">
+                    <a href="#imoveis" class="btn btn-primary">Ver Imóveis</a>
+                    <a href="#cadastro" class="btn btn-secondary">Cadastre-se</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="imoveis" class="properties">
+        <div class="container">
+            <h2 class="section-title">Imóveis em Destaque</h2>
+            <div class="properties-grid">
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Casa de Luxo">
+                    </div>
+                    <div class="property-info">
+                        <h3>Mansão Elegance</h3>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Jardins, São Paulo</p>
+                        <p class="property-details">5 Quartos • 6 Banheiros • 750m²</p>
+                        <a href="#" class="btn btn-outline">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="Apartamento de Luxo">
+                    </div>
+                    <div class="property-info">
+                        <h3>Penthouse Skyline</h3>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Leblon, Rio de Janeiro</p>
+                        <p class="property-details">4 Quartos • 3 Banheiros • 320m²</p>
+                        <a href="#" class="btn btn-outline">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Casa de Praia">
+                    </div>
+                    <div class="property-info">
+                        <h3>Villa Horizonte</h3>
+                        <p class="property-location"><i class="fas fa-map-marker-alt"></i> Jurerê, Florianópolis</p>
+                        <p class="property-details">6 Quartos • 7 Banheiros • 520m²</p>
+                        <a href="#" class="btn btn-outline">Saiba mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="properties-more">
+                <a href="#" class="btn btn-primary">Ver todos os imóveis</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/Felipe.jpg" alt="Corretor de Imóveis Felipe">
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">Sobre Mim</h2>
+                    <p>Com mais de 15 anos de experiência no mercado imobiliário de alto padrão, me dedico a oferecer um serviço exclusivo e personalizado para cada cliente.</p>
+                    <p>Especializado em propriedades premium, tenho orgulho de entender as necessidades específicas de meus clientes e encontrar o imóvel perfeito que atenda a todas as suas expectativas.</p>
+                    <p>Minha missão é transformar o processo de compra e venda de imóveis em uma experiência agradável e satisfatória, oferecendo assessoria completa em todas as etapas.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">250+</span>
+                            <span class="stat-label">Imóveis Vendidos</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Anos de Experiência</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">98%</span>
+                            <span class="stat-label">Clientes Satisfeitos</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefone</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensagem</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(11) 98765-4321</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>contato@seucorretor.com.br</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Av. Paulista, 1000, São Paulo - SP</p>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cadastro" class="registration">
+        <div class="container">
+            <h2 class="section-title">Cadastre-se para Receber Novidades</h2>
+            <form id="registrationForm" class="registration-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="reg-name">Nome Completo</label>
+                        <input type="text" id="reg-name" name="reg-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-email">E-mail</label>
+                        <input type="email" id="reg-email" name="reg-email" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="reg-phone">Telefone</label>
+                        <input type="tel" id="reg-phone" name="reg-phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="reg-city">Cidade</label>
+                        <input type="text" id="reg-city" name="reg-city" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="property-type">Tipo de Imóvel de Interesse</label>
+                    <select id="property-type" name="property-type" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="apartment">Apartamento</option>
+                        <option value="house">Casa</option>
+                        <option value="mansion">Mansão</option>
+                        <option value="penthouse">Cobertura</option>
+                        <option value="land">Terreno</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="budget">Orçamento Aproximado</label>
+                    <select id="budget" name="budget" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="range1">Até R$ 500.000</option>
+                        <option value="range2">R$ 500.000 - R$ 1.000.000</option>
+                        <option value="range3">R$ 1.000.000 - R$ 3.000.000</option>
+                        <option value="range4">R$ 3.000.000 - R$ 5.000.000</option>
+                        <option value="range5">Acima de R$ 5.000.000</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bedrooms">Número de Quartos Desejados</label>
+                    <select id="bedrooms" name="bedrooms" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="1">1 Quarto</option>
+                        <option value="2">2 Quartos</option>
+                        <option value="3">3 Quartos</option>
+                        <option value="4">4 Quartos</option>
+                        <option value="5+">5 ou mais Quartos</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="timeframe">Prazo para Aquisição</label>
+                    <select id="timeframe" name="timeframe" required>
+                        <option value="">Selecione uma opção</option>
+                        <option value="urgent">Imediato</option>
+                        <option value="3months">Até 3 meses</option>
+                        <option value="6months">Até 6 meses</option>
+                        <option value="1year">Até 1 ano</option>
+                        <option value="researching">Apenas pesquisando</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="regions">Regiões de Interesse</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="regions" value="zona-sul"> Zona Sul
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="regions" value="zona-oeste"> Zona Oeste
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="regions" value="zona-norte"> Zona Norte
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="regions" value="centro"> Centro
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="regions" value="litoral"> Litoral
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="preferences">Características Importantes para Você</label>
+                    <div class="checkbox-group">
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="preferences" value="garagem"> Garagem
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="preferences" value="piscina"> Piscina
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="preferences" value="seguranca"> Segurança 24h
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="preferences" value="varanda"> Varanda
+                        </label>
+                        <label class="checkbox-item">
+                            <input type="checkbox" name="preferences" value="lazer"> Área de Lazer
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="additional-info">Informações Adicionais</label>
+                    <textarea id="additional-info" name="additional-info" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-large">Cadastrar</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="depoimentos" class="testimonials">
+        <div class="container">
+            <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Ana Silva">
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"O Felipe foi incrível! Encontrou exatamente o apartamento que eu procurava em Jurerê. Sua dedicação e conhecimento do mercado foram fundamentais para fechar o negócio."</p>
+                        <div class="testimonial-author">
+                            <h4>Ana Silva</h4>
+                            <p>Compradora de Apartamento em Jurerê</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Carlos Mendes">
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Profissionalismo e excelência! O Felipe conseguiu vender minha casa em tempo recorde e por um valor acima do esperado. Recomendo fortemente seus serviços."</p>
+                        <div class="testimonial-author">
+                            <h4>Carlos Mendes</h4>
+                            <p>Vendedor de Casa em Campeche</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-image">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" alt="Mariana Costa">
+                    </div>
+                    <div class="testimonial-content">
+                        <p class="testimonial-text">"Atendimento personalizado e muito profissional. O Felipe entendeu perfeitamente o que eu procurava e encontrou uma cobertura maravilhosa em Lagoa da Conceição."</p>
+                        <div class="testimonial-author">
+                            <h4>Mariana Costa</h4>
+                            <p>Compradora de Cobertura em Lagoa da Conceição</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>LUXURY IMÓVEIS</h3>
+                    <p>Excelência em imóveis de alto padrão</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-links-column">
+                        <h4>Links Rápidos</h4>
+                        <ul>
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#imoveis">Imóveis</a></li>
+                            <li><a href="#sobre">Sobre</a></li>
+                            <li><a href="#contato">Contato</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>Serviços</h4>
+                        <ul>
+                            <li><a href="#">Compra</a></li>
+                            <li><a href="#">Venda</a></li>
+                            <li><a href="#">Consultoria</a></li>
+                            <li><a href="#">Avaliação</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-links-column">
+                        <h4>Contato</h4>
+                        <ul class="footer-contact">
+                            <li><i class="fas fa-phone"></i> (11) 98765-4321</li>
+                            <li><i class="fas fa-envelope"></i> contato@seucorretor.com.br</li>
+                            <li><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000, São Paulo - SP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Luxury Imóveis. Todos os direitos reservados.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
