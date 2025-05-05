@@ -38,24 +38,6 @@ Uma landing page moderna e elegante para corretor de imóveis, projetada para di
 
 ## Instalação e Uso
 
-1. Clone este repositório
-2. Abra o arquivo `index.html` em qualquer navegador moderno
-
-## Personalização
-
-Para alterar as cores e estilos principais, edite as variáveis CSS no início do arquivo `styles.css`:
-
-```css
-:root {
-    --color-background: #121212;
-    --color-background-light: #1e1e1e;
-    --color-text: #ffffff;
-    --color-text-muted: #b0b0b0;
-    --color-primary: #d4af37; /* Dourado */
-    --color-secondary: #1e90ff; /* Azul metálico */
-    ...
-}
-```
 
 ## Créditos
 
